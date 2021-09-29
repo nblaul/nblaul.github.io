@@ -21,10 +21,10 @@
                       Plots
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="maxtemp.html">Max Temperature</a>
-                        <a class="dropdown-item" href="humidity.html">Humidity</a>
-                        <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
-                        <a class="dropdown-item" href="windspeed.html">Wind Speed</a>
+                      <a class="dropdown-item" href="maxtemp.html">Max Temperature</a>
+                      <a class="dropdown-item" href="humidity.html">Humidity</a>
+                      <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+                      <a class="dropdown-item" href="windspeed.html">Wind Speed</a>
                     </div>
                 </li>
                 <li class="nav-item">
@@ -44,17 +44,12 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-8">
-                        <h1>Summary: Latitude vs. X</h1>
+                        <h1>Humidity</h1>
                         <div class="boxbar"></div>
-                        <img src="Resources/assets/images/Fig1.png" class="chartsize img-thumbnail col-md-6 float-md-start mb-3 ms-md-3">
-                        <p>
-                        The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analyis, we first pulled data from the OpenWeatherMap API
-                        to assemble a dataset on over 500 cities. 
-                        </p>
-                        <p>
-                            After assembling the dataset, we used Matplotlib to plot various aspects fo the weather vs latitude. Factors we looked at included: temperature, cloudiness, wind speed, and humidity.
-                            This site provieds the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed. 
-                        </p>
+                        <img src="Resources/assets/images/Fig2.png" id="chart" class= "col-md-12 float-none mb-3 ms-md-3">
+                            <p>
+                            Based on the data visualization above, there does not seem to be a strong correlation between latitude and humidity. 
+                            </p>
                     </div>
                     <!-- sidebar charts -->
                     <div class="col-md-4">
@@ -63,11 +58,11 @@
                             <div class="boxbar"></div>
                             <div class="row">
                                 <div class="col-3 col-md-6">
-                                    <a href="maxtemp.html"><img src="Resources/assets/images/Fig1.png" width="100%">
+                                    <a href="maxtemp.html"><img src="Resources/assets/images/Fig1.png" width="100%" >
                                     </a>
                                 </div>
                                 <div class="col-3 col-md-6">
-                                    <a href="humidity.html"><img src="Resources/assets/images/Fig2.png" width="100%">
+                                    <a href="humidity.html"><img src="Resources/assets/images/Fig2.png" width="100%" class="border border-info">
                                     </a>
                                 </div>
                                 <div class="col-3 col-md-6">
